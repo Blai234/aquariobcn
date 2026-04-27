@@ -37,7 +37,24 @@ body {
   background-color: chartreuse;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: lightblue;
+}
+
 .footer {
   text-align: center;
   padding: 10px;
 }
+
